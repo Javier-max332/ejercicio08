@@ -55,19 +55,19 @@ const albums = [
             },
             {
                 nombre: "And Your Bird Can Sing",
-                url: "https://www.youtube.com/embed/usNsCeOV4GM",
+                url: "https://www.youtube.com/embed/sOUlbredoUM?si=f6jwVVSy0E1rKlI2",
                 duracion: "2:01",
                 compositores: "Lennon, McCartney"
             },
             {
                 nombre: "For No One",
-                url: "https://www.youtube.com/embed/mQER0A0ej0M",
+                url: "https://www.youtube.com/embed/sep5E3ssXLQ?si=jDJ7ZaB8QH8C8_Go",
                 duracion: "2:01",
                 compositores: "Lennon, McCartney"
             },
             {
                 nombre: "Doctor Robert",
-                url: "https://www.youtube.com/embed/YR5ApYxkU-U",
+                url: "https://www.youtube.com/embed/a396v8kuViw?si=UrUCzivj6_RtH1UU",
                 duracion: "2:14",
                 compositores: "Lennon, McCartney"
             },
@@ -99,7 +99,7 @@ const albums = [
         canciones: [
             {
                 nombre: "Magical Mystery Tour",
-                url: "https://www.youtube.com/embed/qNWrqNDYdxI",
+                url: "https://www.youtube.com/embed/yI-xkGwygoM?si=xp8TgLyUUZCNMayY",
                 duracion: "2:51",
                 compositores: "Lennon, McCartney"
             },
@@ -111,25 +111,25 @@ const albums = [
             },
             {
                 nombre: "Flying",
-                url: "https://www.youtube.com/embed/3XzvYkWbZjk",
+                url: "https://www.youtube.com/embed/Z1ONJQLdZrk?si=LFqk9O_3qeoDDyrm",
                 duracion: "2:17",
                 compositores: "Lennon, McCartney, Harrison, Starr"
             },
             {
                 nombre: "Blue Jay Way",
-                url: "https://www.youtube.com/embed/BJ0xBCwkg3E",
+                url: "https://www.youtube.com/embed/-HNgIqKDC4Q?si=cIXjLNMZzxET1ntU",
                 duracion: "3:56",
                 compositores: "George Harrison"
             },
             {
                 nombre: "Your Mother Should Know",
-                url: "https://www.youtube.com/embed/NWc3D2H6xlg",
+                url: "https://www.youtube.com/embed/tCXsFjzMKdc?si=9YR9RPEJGViyOslK",
                 duracion: "2:29",
                 compositores: "Lennon, McCartney"
             },
             {
                 nombre: "I Am the Walrus",
-                url: "https://www.youtube.com/embed/ES5nN8D1GYA",
+                url: "https://www.youtube.com/embed/Og-yjQGzIS8?si=gGbkBjQPhxJcDWuH",
                 duracion: "4:35",
                 compositores: "Lennon, McCartney"
             },
@@ -153,7 +153,7 @@ const albums = [
             },
             {
                 nombre: "Baby You're a Rich Man",
-                url: "https://www.youtube.com/embed/if7c1a3ubL8",
+                url: "https://www.youtube.com/embed/ugZwAJIKXAQ?si=V6AnTUZ0_V-MbFtq",
                 duracion: "3:00",
                 compositores: "Lennon, McCartney"
             },
@@ -179,25 +179,25 @@ const albums = [
             },
             {
                 nombre: "Only a Northern Song",
-                url: "https://www.youtube.com/embed/7uY0Ab5HlZ0",
+                url: "https://www.youtube.com/embed/vcvd-L73Cqs?si=QkiWDodwjHW1We8y",
                 duracion: "3:24",
                 compositores: "George Harrison"
             },
             {
                 nombre: "All Together Now",
-                url: "https://www.youtube.com/embed/h4QEZ-1X5z0",
+                url: "https://www.youtube.com/embed/IZrmKtCKHAU?si=-QokFYXi_F1P-_oD",
                 duracion: "2:09",
                 compositores: "Lennon, McCartney"
             },
             {
                 nombre: "Hey Bulldog",
-                url: "https://www.youtube.com/embed/BlO2ZxrVRB0",
+                url: "https://www.youtube.com/embed/KNsee-gRLAY?si=dY-oIZns12z9e9PX",
                 duracion: "3:12",
                 compositores: "Lennon, McCartney"
             },
             {
                 nombre: "It's All Too Much",
-                url: "https://www.youtube.com/embed/26A-49WbqgI",
+                url: "https://www.youtube.com/embed/2zc3idF_IZ0?si=z271Q0h2_LzD-GpA",
                 duracion: "6:25",
                 compositores: "George Harrison"
             },
@@ -209,43 +209,43 @@ const albums = [
             },
             {
                 nombre: "Pepperland",
-                url: "https://www.youtube.com/embed/0W7N5JcnHk4",
+                url: "https://www.youtube.com/embed/BXTKH1Pti34?si=rDKvetz-FFMPGKFI",
                 duracion: "2:21",
                 compositores: "George Martin"
             },
             {
                 nombre: "Sea of Time",
-                url: "https://www.youtube.com/embed/0nJxqQbQf4E",
-                duracion: "2:18",
+                url: "https://www.youtube.com/embed/PACDEO3Bhdk?si=ZM0jMmQCkEhbwCtJ",
+                duracion: "3:01",
                 compositores: "George Martin"
             },
             {
                 nombre: "Sea of Holes",
-                url: "https://www.youtube.com/embed/7fQpV9qP-TU",
-                duracion: "2:16",
+                url: "https://www.youtube.com/embed/Vt6io2_vGvc?si=RZdYzPW60AUP5TqH",
+                duracion: "2:20",
                 compositores: "George Martin"
             },
             {
                 nombre: "Sea of Monsters",
-                url: "https://www.youtube.com/embed/Kb8y5FmuLWg",
-                duracion: "3:36",
+                url: "https://www.youtube.com/embed/lUUcvw4lhag?si=TbiZvIr_YFSwTrKX",
+                duracion: "3:37",
                 compositores: "George Martin"
             },
             {
                 nombre: "March of the Meanies",
-                url: "https://www.youtube.com/embed/RM_1A2x5NLM",
+                url: "https://www.youtube.com/embed/5cu3WI4InME?si=LMdeNkn5MZ4fjkuX",
                 duracion: "2:18",
                 compositores: "George Martin"
             },
             {
                 nombre: "Pepperland Laid Waste",
-                url: "https://www.youtube.com/embed/8R-R2W1kShE",
+                url: "https://www.youtube.com/embed/Wf4iIYJKNJg?si=-g-5FLSFI9cd5-vH",
                 duracion: "2:13",
                 compositores: "George Martin"
             },
             {
                 nombre: "Yellow Submarine in Pepperland",
-                url: "https://www.youtube.com/embed/foYbB0AsoWg",
+                url: "https://www.youtube.com/embed/YnqH_tgPS5s?si=sF0IGB-DlDhgAGZB",
                 duracion: "2:13",
                 compositores: "George Martin"
             }
