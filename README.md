@@ -9,7 +9,9 @@ Este proyecto es una página web dinámica y responsiva dedicada a la legendaria
 
 ### 📸 Captura de Pantalla
 
-![Captura de pantalla del proyecto](img/screenshot.png)
+
+<img width="1267" height="457" alt="Captura de pantalla 2025-10-19 022205" src="https://github.com/user-attachments/assets/2ae2580b-152c-4e4c-9cf6-58cac747eeda" />
+<img width="1338" height="579" alt="Captura de pantalla 2025-10-19 021709" src="https://github.com/user-attachments/assets/bb3458d9-c850-41a7-857f-00508fd4d00c" />
 
 ---
 
