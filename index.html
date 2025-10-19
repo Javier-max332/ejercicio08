@@ -24,7 +24,12 @@
       transition: all 0.3s ease-in-out;
       transform: scale(1.1);
     }
+
+    html {
+      scroll-behavior: smooth;
+    }
   </style>
+  <link rel="icon" type="image/png" href="logo/favicon-DM.png">
   <title>Ejercicio No.8 - The Fab Four</title>
 </head>
 
@@ -44,13 +49,13 @@
             <a class="nav-link active" aria-current="page" href="#">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">BAND</a>
+            <a class="nav-link" href="#carouselExampleCaptions">INICIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">TOUR</a>
+            <a class="nav-link" href="#Tour">TOUR DE ÁLBUMS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
+            <a class="nav-link" href="#contacto">CONTACTO</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -164,7 +169,7 @@
         </div>
       </div>
 
-      <div class="row pt-5">
+      <div id="Tour" class="row pt-5">
         <div class="col-md-6 col-sm-12 bg-dark text-light pt-5">
           <h4 class="text-center">Revolver</h4>
           <ol id="album-revolver">
@@ -288,7 +293,7 @@
   <!--Fin Album-->
 
   <!--Pie de página-->
-  <footer class="mt-5">
+  <footer id="contacto" class="mt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-12 p-0">
