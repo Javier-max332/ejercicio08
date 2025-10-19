@@ -13,13 +13,16 @@
   <style>
     /*al pasar el ratón por el menú de canciones de los albums*/
     .hover-effect:hover {
-      background-color: #343a40;
-      /* un gris más claro que el fondo */
       color: #ffc107;
       /* amarillo tipo Beatles*/
       cursor: pointer;
       transform: scale(1);
       transition: all 0.1s ease-in-out;
+    }
+
+    .imagenTrans:hover {
+      transition: all 0.3s ease-in-out;
+      transform: scale(1.1);
     }
   </style>
   <title>Ejercicio No.8 - The Fab Four</title>
@@ -73,7 +76,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="img/abbey_road.jpg" class="d-block w-100" alt="Abbey_road">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block ">
         </div>
       </div>
       <div class="carousel-item">
@@ -133,19 +136,19 @@
       <div class="row">
         <div class="col-md-3 col-sm-6 text-center mt-2">
           <h2>Jhon Lennon</h2>
-          <img src="img/john-lennon.jpg" alt="Jhon Lennon" class="rounded-circle" width="70%">
+          <img src="img/john-lennon.jpg" alt="Jhon Lennon" class="rounded-circle imagenTrans" width="70%">
         </div>
         <div class="col-md-3 col-sm-6 text-center mt-2">
           <h2>Paul Mccartney</h2>
-          <img src="img/paul-mccartney.jpg" alt="Paul Mccartney" class="rounded-circle" width="70%">
+          <img src="img/paul-mccartney.jpg" alt="Paul Mccartney" class="rounded-circle imagenTrans" width="70%">
         </div>
         <div class="col-md-3 col-sm-6 text-center mt-2">
           <h2>Ringo Starr</h2>
-          <img src="img/ringo-starr.jpg" alt="Ringo Starr" class="rounded-circle" width="70%">
+          <img src="img/ringo-starr.jpg" alt="Ringo Starr" class="rounded-circle imagenTrans" width="70%">
         </div>
         <div class="col-md-3 col-sm-6 text-center mt-2">
           <h2>George Harrison</h2>
-          <img src="img/george-harrison.jpg" alt="George Harrison" class="rounded-circle" width="70%">
+          <img src="img/george-harrison.jpg" alt="George Harrison" class="rounded-circle imagenTrans" width="70%">
         </div>
       </div>
     </divc>
@@ -163,47 +166,121 @@
 
       <div class="row pt-5">
         <div class="col-md-6 col-sm-12 bg-dark text-light pt-5">
-          <h4 class="text-center">Please Please Me</h4>
-          <ol id="album-pleaseMe">
-            <li class="hover-effect" onclick="mostrarCancion('Please Please Me', 0);" style="cursor:pointer;">I Saw Her
-              Standing These</li>
-            <li class="hover-effect" onclick="mostrarCancion('Please Please Me', 3);" style="cursor:pointer;">Boys</li>
-            <li class="hover-effect" onclick="mostrarCancion('Please Please Me', 5);" style="cursor:pointer;">Please
-              Please Me</li>
-            <li class="hover-effect" onclick="mostrarCancion('Please Please Me', 1);" style="cursor:pointer;">Anna (Go
-              To Him)</li>
-            <li class="hover-effect" onclick="mostrarCancion('Please Please Me', 2);" style="cursor:pointer;">Chains
+          <h4 class="text-center">Revolver</h4>
+          <ol id="album-revolver">
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 0);" style="cursor:pointer;">Taxman
             </li>
-            <li class="hover-effect" onclick="mostrarCancion('Please Please Me', 9);" style="cursor:pointer;">Do You
-              want Know a Secret</li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 1);" style="cursor:pointer;">Eleanor
+              Rigby</li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 2);" style="cursor:pointer;">I'm Only
+              Sleeping</li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 3);" style="cursor:pointer;">Love You
+              To</li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 4);" style="cursor:pointer;">Here,
+              There and Everywhere</li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 5);" style="cursor:pointer;">Yello
+              Submarine</li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 6);" style="cursor:pointer;">She Said
+              She Said</li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 7);" style="cursor:pointer;">Good Day
+              Sunshine</li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 8);" style="cursor:pointer;">And Your
+              Bird Can Sing</li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 9);" style="cursor:pointer;">For No One
+            </li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 10);" style="cursor:pointer;">Doctor
+              Robert</li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 11);" style="cursor:pointer;">I Want to
+              Tell You</li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 12);" style="cursor:pointer;">Got to Get
+              You into My Life</li>
+            <li class="hover-effect" onclick="mostrarCancion('Revolver', 13);" style="cursor:pointer;">Tomorrow
+              Never Knows</li>
           </ol>
         </div>
         <div class="col-md-6 col-sm-12 bg-dark pt-5 pb-5 text-center">
-          <iframe id="videoPlayer_PleaseMe" width="90%" height="300" src="" title="YouTube video player" frameborder="0"
+          <iframe id="videoPlayer_Revolver" width="90%" height="300" src="" title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            allowfullscreen></iframe>
         </div>
       </div>
 
       <div class="row pt-5">
         <div class="col-md-6 col-sm-12 bg-dark text-light pt-5">
-          <h4 class="text-center">Help</h4>
+          <h4 class="text-center">Magical Mystery Tour</h4>
 
           <!--Para cambair musica click-->
-          <ol id="album-help">
-            <li class="hover-effect" onclick="mostrarCancion('Help!', 0);" style="cursor:pointer;">Help!</li>
-            <li class="hover-effect" onclick="mostrarCancion('Help!', 3);" style="cursor:pointer;">I Need You</li>
-            <li class="hover-effect" onclick="mostrarCancion('Help!', 4);" style="cursor:pointer;">Another Girl</li>
-            <li class="hover-effect" onclick="mostrarCancion('Help!', 1);" style="cursor:pointer;">The Night Before</li>
-            <li class="hover-effect" onclick="mostrarCancion('Help!', 7);" style="cursor:pointer;">Act Naturally</li>
-            <li class="hover-effect" onclick="mostrarCancion('Help!', 9);" style="cursor:pointer;">You Like Me Too Much
+          <ol id="album-magicalMysteryTour">
+            <li class="hover-effect" onclick="mostrarCancion('Magical Mystery Tour', 0);" style="cursor:pointer;">
+              Magical Mystery Tour</li>
+            <li class="hover-effect" onclick="mostrarCancion('Magical Mystery Tour', 1);" style="cursor:pointer;">The
+              Fool on the Hill</li>
+            <li class="hover-effect" onclick="mostrarCancion('Magical Mystery Tour', 2);" style="cursor:pointer;">Flying
             </li>
+            <li class="hover-effect" onclick="mostrarCancion('Magical Mystery Tour', 3);" style="cursor:pointer;">Blue
+              Jay Way</li>
+            <li class="hover-effect" onclick="mostrarCancion('Magical Mystery Tour', 4);" style="cursor:pointer;">Your
+              Mother Should Know</li>
+            <li class="hover-effect" onclick="mostrarCancion('Magical Mystery Tour', 5);" style="cursor:pointer;">I Am
+              the Walrus</li>
+            <li class="hover-effect" onclick="mostrarCancion('Magical Mystery Tour', 6);" style="cursor:pointer;">Hello,
+              Goodbye</li>
+            <li class="hover-effect" onclick="mostrarCancion('Magical Mystery Tour', 7);" style="cursor:pointer;">
+              Strawberry Fields Forever</li>
+            <li class="hover-effect" onclick="mostrarCancion('Magical Mystery Tour', 8);" style="cursor:pointer;">Penny
+              Lane</li>
+            <li class="hover-effect" onclick="mostrarCancion('Magical Mystery Tour', 9);" style="cursor:pointer;">Baby
+              You're a Rich Man</li>
+            <li class="hover-effect" onclick="mostrarCancion('Magical Mystery Tour', 10);" style="cursor:pointer;">All
+              You Need Is Love</li>
           </ol>
         </div>
         <div class="col-md-6 col-sm-12 bg-dark pt-5 pb-5">
-          <iframe id="videoPlayer_Help" width="90%" height="300" src="" title="YouTube video player" frameborder="0"
+          <iframe id="videoPlayer_magical" width="90%" height="300" src="" title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="row pt-5">
+        <div class="col-md-6 col-sm-12 bg-dark text-light pt-5">
+          <h4 class="text-center">Yellow Submarine</h4>
+
+          <!--Para cambair musica click-->
+          <ol id="album-yellowSubmarine">
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 0);" style="cursor:pointer;">Yellow
+              Submarine</li>
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 1);" style="cursor:pointer;">Only a
+              Northern Song</li>
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 2);" style="cursor:pointer;">All
+              Together Now</li>
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 3);" style="cursor:pointer;">Hey
+              Bulldog</li>
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 4);" style="cursor:pointer;">It's All
+              Too Much</li>
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 5);" style="cursor:pointer;">All You
+              Need Is Love</li>
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 6);" style="cursor:pointer;">Pepperland
+            </li>
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 7);" style="cursor:pointer;">Sea of
+              Time</li>
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 8);" style="cursor:pointer;">Sea of
+              Holes</li>
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 9);" style="cursor:pointer;">Sea of
+              Monsters</li>
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 10);" style="cursor:pointer;">March of
+              the Meanies</li>
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 11);" style="cursor:pointer;">
+              Pepperland Laid Waste</li>
+            <li class="hover-effect" onclick="mostrarCancion('Yellow Submarine', 12);" style="cursor:pointer;">Yellow
+              Submarine in Pepperland</li>
+
+          </ol>
+        </div>
+        <div class="col-md-6 col-sm-12 bg-dark pt-5 pb-5">
+          <iframe id="videoPlayer_Yellow" width="90%" height="300" src="" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
         </div>
       </div>
     </div>
